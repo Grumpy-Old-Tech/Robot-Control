@@ -107,7 +107,7 @@ class DeviceViewController: UIViewController, UITableViewDataSource, UITableView
         // Display the device name in the cell
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "DeviceCell")!
-        let label = cell.viewWithTag(1) as! UILabel!
+        let label = cell.viewWithTag(1) as! UILabel?
         label?.text = devices[(indexPath as NSIndexPath).row].peripheral.name
         return cell
     }
