@@ -13,9 +13,9 @@ class DeviceViewController: UIViewController, UITableViewDataSource, UITableView
 
     //MARK: Outlets
     
-    @IBOutlet weak var reScanButton: UIBarButtonItem!
-    @IBOutlet weak var deviceTableView: UITableView!
-    @IBOutlet weak var connectIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var reScanButton:        UIBarButtonItem!
+    @IBOutlet weak var deviceTableView:     UITableView!
+    @IBOutlet weak var connectIndicator:    UIActivityIndicatorView!
 
     //MARK: Variables
     
@@ -52,6 +52,8 @@ class DeviceViewController: UIViewController, UITableViewDataSource, UITableView
         // Start scanning for devices, set a timeout as well
         title = "Scanning"
         serial.startScan()
+        
+        connectIndicator.isHidden = false
         Timer.scheduledTimer(timeInterval: 10, target: self, selector: #selector(DeviceViewController.scanTimeOut), userInfo: nil, repeats: false)
     }
     
@@ -66,6 +68,7 @@ class DeviceViewController: UIViewController, UITableViewDataSource, UITableView
         serial.stopScan()
         reScanButton.isEnabled = true
         title = "Devices"
+        connectIndicator.isHidden = true
     }
     
     @objc func connectTimeOut() {
