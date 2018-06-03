@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B2B9C061F63D37800953605 /* SkaterBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkaterBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B2B9C061F63D37800953605 /* Robot Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2B9C091F63D37800953605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B2B9C0B1F63D37800953605 /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
 		3B2B9C0E1F63D37800953605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		3B2B9BFD1F63D37800953605 = {
 			isa = PBXGroup;
 			children = (
-				3B2B9C081F63D37800953605 /* SkaterBot */,
+				3B2B9C081F63D37800953605 /* Robot Control */,
 				3B2B9C071F63D37800953605 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		3B2B9C071F63D37800953605 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B2B9C061F63D37800953605 /* SkaterBot.app */,
+				3B2B9C061F63D37800953605 /* Robot Control.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B2B9C081F63D37800953605 /* SkaterBot */ = {
+		3B2B9C081F63D37800953605 /* Robot Control */ = {
 			isa = PBXGroup;
 			children = (
 				3B2B9C1D1F63DA1D00953605 /* BluetoothSerial.swift */,
@@ -67,15 +67,15 @@
 				3B2B9C121F63D37800953605 /* LaunchScreen.storyboard */,
 				3B2B9C151F63D37800953605 /* Info.plist */,
 			);
-			path = SkaterBot;
+			path = "Robot Control";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B2B9C051F63D37800953605 /* SkaterBot */ = {
+		3B2B9C051F63D37800953605 /* Robot Control */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B2B9C181F63D37800953605 /* Build configuration list for PBXNativeTarget "SkaterBot" */;
+			buildConfigurationList = 3B2B9C181F63D37800953605 /* Build configuration list for PBXNativeTarget "Robot Control" */;
 			buildPhases = (
 				3B2B9C021F63D37800953605 /* Sources */,
 				3B2B9C031F63D37800953605 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = SkaterBot;
+			name = "Robot Control";
 			productName = SkaterBot;
-			productReference = 3B2B9C061F63D37800953605 /* SkaterBot.app */;
+			productReference = 3B2B9C061F63D37800953605 /* Robot Control.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B2B9C011F63D37800953605 /* Build configuration list for PBXProject "SkaterBot" */;
+			buildConfigurationList = 3B2B9C011F63D37800953605 /* Build configuration list for PBXProject "Robot Control" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B2B9C051F63D37800953605 /* SkaterBot */,
+				3B2B9C051F63D37800953605 /* Robot Control */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 982CTE74D2;
-				INFOPLIST_FILE = SkaterBot/Info.plist;
+				INFOPLIST_FILE = "Robot Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NK.SkaterBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,7 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 982CTE74D2;
-				INFOPLIST_FILE = SkaterBot/Info.plist;
+				INFOPLIST_FILE = "Robot Control/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = NK.SkaterBot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B2B9C011F63D37800953605 /* Build configuration list for PBXProject "SkaterBot" */ = {
+		3B2B9C011F63D37800953605 /* Build configuration list for PBXProject "Robot Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B2B9C161F63D37800953605 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B2B9C181F63D37800953605 /* Build configuration list for PBXNativeTarget "SkaterBot" */ = {
+		3B2B9C181F63D37800953605 /* Build configuration list for PBXNativeTarget "Robot Control" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B2B9C191F63D37800953605 /* Debug */,
